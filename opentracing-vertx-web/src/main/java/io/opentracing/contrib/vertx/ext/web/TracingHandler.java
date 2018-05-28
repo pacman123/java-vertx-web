@@ -13,7 +13,7 @@ import io.opentracing.tag.Tags;
 import io.vertx.core.Handler;
 import io.vertx.core.logging.Logger;
 import io.vertx.core.logging.LoggerFactory;
-import io.vertx.ext.web.RoutingContext;
+import io.vertx.rxjava.ext.web.RoutingContext;
 
 /**
  * Handler which creates tracing data for all server requests. It should be added to

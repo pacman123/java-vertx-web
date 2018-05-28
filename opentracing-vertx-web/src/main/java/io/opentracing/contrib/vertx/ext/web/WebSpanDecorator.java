@@ -6,8 +6,8 @@ import java.util.Map;
 
 import io.opentracing.Span;
 import io.opentracing.tag.Tags;
-import io.vertx.core.http.HttpServerRequest;
-import io.vertx.core.http.HttpServerResponse;
+import io.vertx.rxjava.core.http.HttpServerRequest;
+import io.vertx.rxjava.core.http.HttpServerResponse;
 
 /**
  * Decorate server span at different stages. Do not call blocking code inside decorators!
